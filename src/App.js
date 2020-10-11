@@ -1,8 +1,16 @@
 import React from 'react';
+import './styles/app.css';
 
-function App() {
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+const App = () => {
   return (
-    <h1>ISAR Capital Partners</h1>
+    <>
+      <Header />
+      <h1>ISAR Capital Partners</h1>
+      <Footer />
+    </>
   );
 }
 
