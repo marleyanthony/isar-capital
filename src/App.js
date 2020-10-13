@@ -2,14 +2,16 @@ import React from 'react';
 import './styles/app.css';
 
 import Nav from './components/Navbar/Nav';
-import Footer from './components/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Hero from './components/Hero/Hero';
+import Main from './components/MainContent/Main';
 
 const App = () => {
   return (
     <>
-      <Nav />
-      {/* <h1>ISAR Capital Partners</h1>
-      <Footer /> */}
+      <Navbar />
+      <Hero />
+      <Main />
     </>
   );
 }

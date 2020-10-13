@@ -2,21 +2,16 @@ export const NavItems = [
   {
     title: 'Home',
     url: '#',
-    cName: 'navbar__link'
+    cName: 'nav__nav-item'
   },
   {
     title: 'About',
     url: '#',
-    cName: 'navbar__link'
+    cName: 'nav__nav-item'
   },
   {
-    title: 'Contact Us',
+    title: 'Contact',
     url: '#',
-    cName: 'navbar__link'
-  },
-  {
-    title: 'Sign Up',
-    url: '#',
-    cName: 'navbar__link-mobile'
+    cName: 'nav__nav-item nav__nav-item--last-nav-item'
   }
 ]
