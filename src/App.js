@@ -1,15 +1,15 @@
 import React from 'react';
 import './styles/app.css';
 
-import Header from './components/Header';
+import Nav from './components/Navbar/Nav';
 import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
-      <Header />
-      <h1>ISAR Capital Partners</h1>
-      <Footer />
+      <Nav />
+      {/* <h1>ISAR Capital Partners</h1>
+      <Footer /> */}
     </>
   );
 }

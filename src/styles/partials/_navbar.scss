@@ -1,0 +1,80 @@
+.navbar {
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  @include tablet {
+    display: flex;
+  }
+
+  &__logo {
+    justify-self: start;
+    padding: 2rem;
+  }
+
+  &__links-wrapper {
+    position: relative;
+  }
+
+  &__nav-menu-closed {
+    list-style: none;
+    display: flex;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__nav-menu-open {
+    @include tablet {
+      list-style: none;
+      display: flex;
+      background-color: green;
+      height: 100vh;
+      width: 20rem;
+      position: absolute;
+      top: 0;
+      right: 0;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__nav-menu-open-close-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(3rem, 1.9rem);
+  }
+
+  &__link {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+
+  &__link-mobile {
+    display: none;
+  }
+
+  &__menu-icon {
+    display: none;
+
+    @include tablet {
+      display: unset;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-3rem, 1.9rem);
+      font-size: 1.5rem;
+    }
+  }
+
+  &__signup-btn {
+    @include tablet {
+      display: none;
+    }
+  }
+}
