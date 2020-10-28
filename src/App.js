@@ -1,10 +1,9 @@
 import React from 'react';
 import './styles/app.css';
-
-import Nav from './components/Navbar/Nav';
 import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import Main from './components/MainContent/Main';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -12,6 +11,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Main />
+      <Footer />
     </>
   );
 }

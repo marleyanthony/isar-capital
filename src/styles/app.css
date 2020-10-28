@@ -7,7 +7,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.nav {
+.navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +17,21 @@
   padding: 1rem;
 }
 
-.nav__links-wrapper {
+.navbar__logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__logo-chart-icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar__links-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,13 +41,13 @@
   list-style: none;
 }
 
-.nav__nav-item {
+.navbar__nav-item {
   text-decoration: none;
   color: #000;
   margin-right: 1rem;
 }
 
-.nav__nav-item--last-nav-item {
+.navbar__nav-item--last-nav-item {
   margin-right: unset;
 }
 
@@ -42,7 +56,7 @@
 }
 
 .hero__content-wrapper {
-  background-color: #222831;
+  background-color: #2d4059;
   color: #fff;
   height: 50vh;
   display: -webkit-box;
@@ -100,5 +114,67 @@
   color: #fff;
   padding: 1rem;
   border-radius: 50%;
+}
+
+.footer {
+  background-color: #2d4059;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  height: 60vh;
+  position: relative;
+  padding: 10rem 0;
+  margin: 5rem 0 0;
+}
+
+.footer__logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer__logo-chart-icon {
+  margin-right: 0.25rem;
+}
+
+.footer__card {
+  background-color: #ea5455;
+  margin: 0 1.5rem;
+  position: absolute;
+  top: -150px;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.footer__card-header {
+  margin-bottom: 1rem;
+}
+
+.footer__card-sub-header {
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
+  line-height: 1.3rem;
+}
+
+.footer__cta-btn {
+  border: none;
+  padding: 0.75rem 1.75rem;
+  border-radius: 5px;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=app.css.map */

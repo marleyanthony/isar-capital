@@ -3,9 +3,12 @@ import { NavItems } from './NavItems';
 
 const Navbar = () => {
   return (
-    <nav className="nav">
-      <h1 className="nav__logo">ISAR</h1>
-      <ul className="nav__links-wrapper">
+    <nav className="navbar">
+      <div className="navbar__logo-wrapper">
+        <i className="fas fa-chart-line navbar__logo-chart-icon" />
+        <h1 className="navbar__logo">ISAR</h1>
+      </div>
+      <ul className="navbar__links-wrapper">
         {
           NavItems.map((item, index) => {
             return (

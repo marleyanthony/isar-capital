@@ -1,7 +1,17 @@
-.nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo-chart-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
 
   &__links-wrapper {
     display: flex;
