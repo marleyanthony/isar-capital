@@ -10,7 +10,6 @@ class Nav extends React.Component {
   handleClick = () => {
     this.setState({ clicked: !this.state.clicked });
     this.setState({ menuOpen: !this.state.menuOpen })
-
   }
 
   render() {
