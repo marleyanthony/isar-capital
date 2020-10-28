@@ -116,6 +116,62 @@
   border-radius: 50%;
 }
 
+.about {
+  padding: 0 0 4rem;
+}
+
+.about__team-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.about__img {
+  height: 10rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.about__team-info-wrapper {
+  padding: 0 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.about__team-info-content {
+  margin-bottom: 1rem;
+}
+
+.about__fund-diff-wrapper {
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+
+.about__fund-diff-header {
+  margin-bottom: 2rem;
+}
+
+.about__fund-diff-experience {
+  margin-bottom: 5rem;
+}
+
+.about__fund-diff-experience-icon {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  background-color: #ea5455;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
 .footer {
   background-color: #2d4059;
   color: #fff;
@@ -130,9 +186,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  height: 60vh;
   position: relative;
-  padding: 10rem 0;
+  padding: 12rem 0 4rem;
   margin: 5rem 0 0;
 }
 
@@ -146,10 +201,37 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 3rem;
+  font-size: 2rem;
 }
 
 .footer__logo-chart-icon {
   margin-right: 0.25rem;
+}
+
+.footer__nav-wrapper {
+  margin-bottom: 3rem;
+}
+
+.footer__nav-item {
+  margin-bottom: 1.5rem;
+}
+
+.footer__address {
+  margin-bottom: 3rem;
+}
+
+.footer__address-header {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__social {
+  font-size: 1.5rem;
+}
+
+.footer__social-mail {
+  margin-right: 1rem;
 }
 
 .footer__card {
@@ -158,7 +240,7 @@
   position: absolute;
   top: -150px;
   border-radius: 25px;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
 }
 
 .footer__card-header {

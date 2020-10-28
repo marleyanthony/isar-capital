@@ -1,18 +1,23 @@
 import React from 'react';
 import './styles/app.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Hero from './components/Hero/Hero';
 import Main from './components/MainContent/Main';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Hero />
-      <Main />
+      <Switch>
+        <Route path="/" component={Main} exact />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
       <Footer />
-    </>
+    </Router>
   );
 }
 

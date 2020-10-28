@@ -27,8 +27,8 @@ const Footer = () => {
           <p className="footer__address-city">Vancouver, BC V5W 3J4</p>
         </div>
         <div className="footer__social">
-          <i className="fas fa-envelope"></i>
-          <i className="fas fa-phone"></i>
+          <i className="fas fa-envelope footer__social-mail"></i>
+          <i className="fas fa-phone footer__social-phone"></i>
         </div>
       </div>
     </div>

@@ -1,27 +1,27 @@
 import React from 'react';
-import { NavItems } from './NavItems';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar__logo-wrapper">
-        <i className="fas fa-chart-line navbar__logo-chart-icon" />
-        <h1 className="navbar__logo">ISAR</h1>
-      </div>
+      <Link to="/">
+        <div className="navbar__logo-wrapper">
+          <i className="fas fa-chart-line navbar__logo-chart-icon" />
+          <h1 className="navbar__logo">ISAR</h1>
+        </div>
+      </Link>
       <ul className="navbar__links-wrapper">
-        {
-          NavItems.map((item, index) => {
-            return (
-              <li key={index}>
-                <a href={item.url} className={item.cName}>
-                  {item.title}
-                </a>
-              </li>
-            )
-          })
-        }
+        <Link to="/">
+          <li className="navbar__nav-item">Home</li>
+        </Link>
+        <Link to="/about">
+          <li className="navbar__nav-item">About</li>
+        </Link>
+        <Link to="/contact">
+          <li className="navbar__nav-item navbar__nav-item--last-nav-item">Contact</li>
+        </Link>
       </ul>
-    </nav >
+    </nav>
   )
 }
 

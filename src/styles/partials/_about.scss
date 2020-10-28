@@ -1,0 +1,48 @@
+.about {
+  padding: 0 0 4rem;
+
+  &__team-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+    text-align: center;
+  }
+
+  &__img {
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  &__team-info-wrapper {
+    padding: 0 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  &__team-info-content {
+    margin-bottom: 1rem;
+  }
+
+  &__fund-diff-wrapper {
+    text-align: center;
+    padding: 1rem 1.5rem;
+  }
+
+  &__fund-diff-header {
+    margin-bottom: 2rem;
+  }
+
+  &__fund-diff-experience {
+    margin-bottom: 5rem;
+  }
+
+  &__fund-diff-experience-icon {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    background-color: $secondary-color;
+    color: $font-color;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+}

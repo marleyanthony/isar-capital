@@ -5,19 +5,46 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 60vh;
+  // height: 60vh;
   position: relative;
-  padding: 10rem 0;
+  padding: 12rem 0 4rem;
   margin: 5rem 0 0;
 
   &__logo-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
   }
 
   &__logo-chart-icon {
     margin-right: 0.25rem;
+  }
+
+  &__nav-wrapper {
+    margin-bottom: 3rem;
+  }
+
+  &__nav-item {
+    margin-bottom: 1.5rem;
+  }
+
+  &__address {
+    margin-bottom: 3rem;
+  }
+
+  &__address-header {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__social {
+    font-size: 1.5rem;
+  }
+
+  &__social-mail {
+    margin-right: 1rem;
   }
 
   &__card {
@@ -26,7 +53,7 @@
     position: absolute;
     top: -150px;
     border-radius: 25px;
-    padding: 2rem;
+    padding: 2.5rem 2rem;
   }
 
   &__card-header {
